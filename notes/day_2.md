@@ -56,13 +56,13 @@ Jawaban: karena properti "main" terdapat pada package.json dan nilainya adalah "
 
 ### 8. Apakah Main Process sama dengan Renderer Process? Jelaskan perbedaannya.
 
-Jawaban:
+Jawaban: tidak, main process adalah entry point aplikasi yang bertugas mengelola backend (node js), sedangkan renderer process bertugas untuk menangani interface pengguna dan interaksi menggunakan kode html/css/js.
 
 ---
 
 ### 9. Apakah Main Process bisa membuat lebih dari satu `BrowserWindow`?
 
-Jawaban:
+Jawaban: jawabannya bisa, kita bisa langsung membuat instance baru browserwindow yang ingin kita tampilkan. contohnya ketika kita ingin aplikasi menampilkan beberapa jendela disitulah browserwindow lebih dari satu diimplementasikan. contohnya pada discord ketika kita ingin membuka setting maka akan muncul jendela baru agar tidak menggangu alur chat di main window.
 
 ---
 
@@ -383,8 +383,8 @@ Buat Click Counter tanpa menyalin implementasi lengkap dari tutorial.
 
 ## 10. Self Check
 
-* [ ] Gw paham Main Process.
-* [ ] Gw paham Renderer Process.
+* [x] Gw paham Main Process.
+* [x] Gw paham Renderer Process.
 * [ ] Gw bisa menjelaskan perbedaan keduanya.
 * [ ] Gw paham DOM.
 * [ ] Gw bisa memakai `document.querySelector()`.
@@ -395,7 +395,9 @@ Buat Click Counter tanpa menyalin implementasi lengkap dari tutorial.
 
 **Kesimpulan Day 2:**
 
-Tulis dengan bahasa sendiri apa yang lu pelajari hari ini.
+setiap BrowserWindow berjalan di renderer process nya masing-masing, jika salah satu window mengalami crash maka window lainnya tetap aman.
+
+karena tiap window berbeda prosesnya maka dibutuhkan IPC untuk berbagi data ke window lainnya.
 
 ---
 
