@@ -50,7 +50,7 @@ Jawaban: berdasarkan jawaban no 5. tanggung jawab main process bertanggungjawab 
 
 ### 7. Mengapa `main.js` biasanya menjadi entry point aplikasi Electron?
 
-Jawaban:
+Jawaban: karena properti "main" terdapat pada package.json dan nilainya adalah "main.js" maka file inilah yang akan dijadikan entry point main process.
 
 ---
 
