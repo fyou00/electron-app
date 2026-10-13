@@ -12,19 +12,19 @@
 
 ### 1. Apa fungsi `BrowserWindow`?
 
-Jawaban:
+Jawaban: BrowserWindow adalah modul untuk membuat dan mengelola/mengontrol window (jendela) aplikasi desktop pada electron.
 
 ---
 
 ### 2. Apa fungsi `win.loadFile("index.html")`?
 
-Jawaban:
+Jawaban: kode diatas berfungsi untuk memuat sekaligus menampilkan index.html ke BrowserWindow. fungsi ini dipanggil di main process (main.js) 
 
 ---
 
 ### 3. Apa yang dilakukan `app.whenReady()`?
 
-Jawaban:
+Jawaban: 
 
 ---
 
