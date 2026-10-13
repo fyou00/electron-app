@@ -24,13 +24,13 @@ Jawaban: kode diatas berfungsi untuk memuat sekaligus menampilkan index.html ke 
 
 ### 3. Apa yang dilakukan `app.whenReady()`?
 
-Jawaban: 
+Jawaban: !!! pending !!!
 
 ---
 
 ### 4. Jelaskan alur ketika kita menjalankan `npm start` sampai window Electron muncul.
 
-Jawaban:
+Jawaban: !!! pending !!!
 
 ---
 
@@ -38,13 +38,13 @@ Jawaban:
 
 ### 5. Apa yang dimaksud dengan Main Process?
 
-Jawaban:
+Jawaban: main process adaalah kode utama environment node js yang berfungsi sebagai entry point dan juga file pertama yang dijalankan ketika aplikasi dibuka. dalam electron, minimalnya modul yang dibutuhkan ada 2 yaitu app dan browserwindow. app berfungsi untuk mengatur siklus aplikasi, kapan aplikasi dimulai, belajar, atau ditutup sepenuhnya. browserwindow berfungsi sebagai pengelola window aplikasi desktop seeprti menampilkan halaman html. 
 
 ---
 
 ### 6. Apa saja tanggung jawab Main Process?
 
-Jawaban:
+Jawaban: berdasarkan jawaban no 5. tanggung jawab main process bertanggungjawab untuk mengatur siklus hidup aplikasi, mengelola jendela (renderer process) dan akses penuh ke node js bisa ke sistem operasi ataupun API. 
 
 ---
 
