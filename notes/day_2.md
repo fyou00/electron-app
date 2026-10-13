@@ -129,7 +129,11 @@ app.whenReady().then(createWindow);
 
 ### 16. Bagian mana yang bertanggung jawab membuat window?
 
-Jawaban:
+Jawaban: kode diatas yang membuat window adalah function createWindow() lebih tepatnya adalah sintaks `new BrowserWindow`. penjelasan:
+- `function createWindow()` &rarr; mendefinisikan fungsi yang berisi instruksi untuk membuat window.
+- `const win` &rarr; menyimpan 
+- `new BrowserWindow` &rarr; membuat objek window electron baru.
+- `win.loadFile` &rarr; menampilkan halaman HTML ke window.
 
 ---
 
